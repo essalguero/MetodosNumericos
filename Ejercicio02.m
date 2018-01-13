@@ -1,4 +1,4 @@
-for N = [1, 10, 100, 1000, 10000, 100000, 1000000, 10000000]
+for N = [1, 10, 100, 1000, 10000, 100000]
   
   valorTotal = 0;
   
@@ -9,7 +9,7 @@ for N = [1, 10, 100, 1000, 10000, 100000, 1000000, 10000000]
     valor4 = (1 / ((8 * m) + 5));
     valor5 = (1 / ((8 * m) + 6));
     
-    valorTotal = valorTotal + valor1 * (valor2 - valor3 + valor4 + valor5);
+    valorTotal = valorTotal + (valor1 * (valor2 - valor3 + valor4 + valor5));
     
   end
   
