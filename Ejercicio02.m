@@ -4,7 +4,7 @@ clc
 format long
 display("Iteracion - valor - error");
 
-for N = 1:30
+for N = 1:15
 
   valorPi = function2(N);
   
